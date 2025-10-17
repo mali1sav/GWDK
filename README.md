@@ -1,11 +1,73 @@
-How You Will Use This Protocol
-Start a New Chat: Paste the entire prompt above into Windsurf or your LLM interface of choice. The AI will respond by acknowledging its roles and readiness.
-Present Your Idea: You will then provide your idea in a simple format, like this:
-Initial Idea: I want to build a crypto algorithmic trading app called "Aetherium Prime" that uses reinforcement learning and multiple LLMs like GPT-5 and Gemini 2.5 Pro to make trading decisions. It should have a modern dashboard and backtesting capabilities.
-Domain: Quantitative Crypto Trading
-Engage in the Dialogue: The AI will now present nine questions.
-(CPO): "Who is the target user for this? A professional quant, or a retail investor? How will you build trust when the AI makes a losing trade?"
-(PSA): "What are the latency requirements for your data pipeline? How will you manage the state and cost of querying multiple expensive LLMs for every potential trade?"
-(Domain Expert - Quant Trader): "How will your RL agent be protected against black swan events and sudden high-volatility scenarios that weren't in its training data? What is your unique alpha—what market inefficiency are you exploiting that others aren't?"
-Receive the Blueprint: After you answer these questions thoughtfully, the AI will perform the final synthesis, delivering the complete, filled-out SPECIFICATION_TEMPLATE.md.
-This process ensures that by the time you receive the specification, your idea has been pressure-tested from a product, technical, and market perspective. The resulting document will be a world-class blueprint, ready to be fed into the Genesis Protocol, because it was born from a collaboration with a council of "maximum intelligence" experts.
+# 🚀 The Gemini/Windsurf Development Kit (GWDK)
+
+> A comprehensive framework for transforming Large Language Models from "forgetful interns" into disciplined, world-class engineering partners. This toolkit provides the protocols and templates to architect, build, and maintain complex software projects with AI agents.
+
+---
+
+## The Problem: The "Forgetful Intern"
+AI coding agents are powerful but suffer from a critical flaw: **context drift**. They forget requirements, misunderstand complex architectures, and introduce regression bugs. Without a rigorous framework, managing them for any non-trivial, ongoing project becomes a frustrating exercise in micromanagement.
+
+## The Solution: The Architect & The Executor
+The GWDK solves this by splitting the workflow into two distinct roles, enforced by structured protocols:
+
+1.  **The Architect (The Human & The Ideation AI):** You provide the high-level vision. Using the **Ideation Protocol**, you collaborate with a frontier LLM to pressure-test your idea and generate a world-class architectural blueprint (`SPECIFICATION.md`).
+2.  **The Executor (The Agentic Coder):** The agent (e.g., Windsurf) is given a clear, granular plan. Using the **Genesis** and **Maintenance Protocols**, it executes this plan autonomously, with mandatory, test-driven steps that ensure quality and adherence to the specification.
+
+This repository contains the master templates for this entire, repeatable workflow.
+
+---
+
+## 🔧 The Toolkit: What's Inside?
+
+This repository contains five core files that constitute the entire development lifecycle.
+
+### `IDEATION_PROTOCOL.md`
+A master prompt to command a frontier LLM (like Gemini 3.0 or GPT-5) to act as a "Silicon Valley Product Council." It stress-tests your raw idea from product, technical, and domain-expert perspectives before any code is written.
+
+### `SPECIFICATION_TEMPLATE.md`
+A professional-grade template for a project specification. The output of the Ideation Protocol is used to fill this out, creating the "Single Source of Truth" for your project.
+
+### `GENESIS_PROTOCOL.md`
+A master prompt for your agentic coder (Windsurf). It automates the entire process of building a new project from scratch, phase by phase, based on the `SPECIFICATION.md`. It enforces a strict, test-driven, and verifiable workflow.
+
+### `MAINTENANCE_PROTOCOL.md`
+A master prompt for all ongoing development, bug fixes, and feature enhancements. It forces the agent to perform a full system scan and regression test *before* writing any new code, ensuring the stability of your living codebase.
+
+### `README.md`
+This file, providing an overview and guide to the GWDK methodology.
+
+---
+
+## ⚙️ The Workflow: How to Use the GWDK
+
+### For a New Project:
+
+1.  **Ideate (`IDEATION_PROTOCOL.md`):** Copy the contents of this file into a chat with a frontier LLM. Engage in the "Socratic Inquisition" to refine your idea.
+2.  **Specify (`SPECIFICATION_TEMPLATE.md`):** Use the output from the ideation session to fill out this template. This becomes your project's master blueprint.
+3.  **Execute (`GENESIS_PROTOCOL.md`):** Copy this master prompt into your agentic coder (Windsurf). It will read your new `SPECIFICATION.md`, generate a plan for Phase 1, and begin building your project autonomously.
+
+### For Ongoing Maintenance:
+
+1.  **Define Change (`MAINTENANCE_PROTOCOL.md`):** Open this file and fill out the `## CHANGE REQUEST ##` section at the bottom with your desired enhancement or bug fix.
+2.  **Execute Change:** Copy the entire, edited file and paste it into your agentic coder. The agent will follow the strict, safety-first protocol to implement your change without breaking existing functionality.
+
+---
+
+## 📜 Core Principles
+
+This methodology is built on a few non-negotiable principles:
+
+*   **The Specification is the Source of Truth:** All work must map back to the master plan.
+*   **Test-Driven Development is Mandatory:** Code is not complete until a test proves it works.
+*   **Regressions Are Unacceptable:** No change is approved if it breaks existing, tested functionality.
+*   **The Human is the Architect; The AI is the Executor:** Leverage AI for what it's best at—lightning-fast execution—while you focus on high-level strategic direction.
+
+---
+
+## Contributing
+
+This is a living methodology. If you have ideas for improving the protocols or templates, please open an issue to discuss them.
+
+## License
+
+This toolkit is released under the [MIT License](LICENSE).
