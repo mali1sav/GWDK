@@ -1,4 +1,4 @@
-# 🚀 The Lean AI Development Kit (LADK)
+# 🚀 The Lean Gemini Workflow Development Kit
 
 > A streamlined, entrepreneurial framework for using AI agents to architect, build, validate, and operate complex software. This kit provides the battle-tested protocols to transform an AI from a simple coder into a versatile, full-stack development partner.
 
