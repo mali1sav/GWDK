@@ -9,7 +9,7 @@
 Previous methodologies are often too complex for the speed required by modern development. The LADK is built for entrepreneurial effectiveness. The workflow is a continuous loop between two roles:
 
 1.  **The Human (The Strategist):** You set the vision, make the key product decisions, and act as the final arbiter of quality. You are the CEO and the Product Owner.
-2.  **The AI (The Full-Stack Partner):** The agent (e.g., Windsurf) acts as your complete engineering team. Guided by the LADK protocols, it serves as an architect, a full-stack developer, a QA analyst, and a DevOps engineer.
+2.  **The AI (The Full-Stack Partner):** The agent (e.g., Windsurf or Cursor) acts as your complete engineering team. Guided by the LADK protocols, it serves as an architect, a full-stack developer, a QA analyst, and a DevOps engineer.
 
 This repository contains the master prompts for this entire, repeatable lifecycle.
 
