@@ -16,10 +16,10 @@ After completing the user stories, begin **Exploratory Testing**. You have a 10-
 *   Use the browser's "Back" and "Forward" buttons during a multi-step process.
 
 **STEP 4: COMPILE THE BUG REPORT**
-Synthesize all findings into a structured Bug Report with three sections: Critical Functional Bugs, Usability & UX Issues, and Missing Features.
+Synthesize all findings into a structured Bug Report with three sections: Critical Functional Bugs, Usability & UX Issues, and Missing Features. Store reports in well-organised folders.
 
 **STEP 5: PROPOSE A REMEDIATION PLAN**
-Generate a new, granular `MAINTENANCE_PROTOCOL` plan to fix every issue you discovered.
+Generate a new, granular `MAINTENANCE_PROTOCOL` plan to fix every issue you discovered. Store the plan in well-organised place.
 
 ---
 ## UAT DIRECTIVE ##
