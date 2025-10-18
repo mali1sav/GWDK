@@ -1,4 +1,4 @@
-ATTENTION AGENT: We are beginning a new project named [PROJECT NAME]. We will use the Genesis Protocol to build it. The master blueprint is `SPECIFICATION.md`. Your work will be governed by the Agent Command Language (ACL).
+02_ATTENTION AGENT: We are beginning a new project named [PROJECT NAME]. We will use the Genesis Protocol to build it. The master blueprint is `SPECIFICATION.md`. Your work will be governed by the Agent Command Language (ACL).
 
 **Step 1: Architect Mode**
 First, act as The Architect. Read the `SPECIFICATION.md` in its entirety. Now, generate the detailed, granular `---PLAN---` section for **Phase 1: The Foundation** as defined in the spec. The plan must be a checklist of verifiable, test-driven steps. After you present the plan, await my final approval.
