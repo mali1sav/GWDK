@@ -19,11 +19,11 @@ Present a granular, TDD-based plan. Await user approval.
 4.2. **Verify System Integrity:** Run the *entire test suite* again to check for regressions.
 
 **STEP 5: DOCUMENTATION & CLEANUP**
-5.1. **Code Review Simulation:** `cat` the final changed code.
+5.1. **Code Review Simulation:** `cat` the final changed code. Store documentations in well-organised folders. 
 5.2. **Docstrings & Comments:** Ensure code is well-documented.
 
 **STEP 6: REPORT & CONCLUDE**
-Announce completion and confirm all tests are passing.
+Announce completion and confirm all tests are passing. Store reports in well-organised folders. 
 
 ---
 ## CHANGE REQUEST FOLLOWS ##
